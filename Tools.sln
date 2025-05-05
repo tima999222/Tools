@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.RabbitMq", "Tools.Rab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Logging", "Tools.Logging\Tools.Logging.csproj", "{CC944F99-2ABE-464D-A11C-B424CEAEEEE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Database", "Tools.Database\Tools.Database.csproj", "{956CA6A8-A7B9-41BD-9B49-6EC28CE7765A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CC944F99-2ABE-464D-A11C-B424CEAEEEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC944F99-2ABE-464D-A11C-B424CEAEEEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC944F99-2ABE-464D-A11C-B424CEAEEEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956CA6A8-A7B9-41BD-9B49-6EC28CE7765A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956CA6A8-A7B9-41BD-9B49-6EC28CE7765A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956CA6A8-A7B9-41BD-9B49-6EC28CE7765A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956CA6A8-A7B9-41BD-9B49-6EC28CE7765A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

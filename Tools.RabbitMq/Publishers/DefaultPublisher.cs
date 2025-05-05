@@ -52,5 +52,13 @@ namespace Tools.RabbitMq.Publishers
                                     basicProperties: null,
                                     body: body);
         }
+
+        public void Dispose()
+        {
+            _channel?.Close();
+            _channel?.Dispose();
+            _connection?.Close();
+            _connection?.Dispose();
+        }
     }
 }

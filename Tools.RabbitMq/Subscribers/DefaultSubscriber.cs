@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Tools.RabbitMq.Subscribers
 {
-    public class DefaultSubscriber : ISubscriber, IDisposable
+    public class DefaultSubscriber : ISubscriber
     {
         private readonly IConnection _connection;
         private readonly IModel _channel;

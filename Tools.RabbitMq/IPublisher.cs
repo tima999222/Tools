@@ -1,7 +1,7 @@
 ﻿
 namespace Tools.RabbitMq
 {
-    public interface IPublisher
+    public interface IPublisher : IDisposable
     {
         Task PublishAsync<T>(T message);
     }
